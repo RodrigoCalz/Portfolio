@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <title>Site</title>
+</head>
+
+<body>
+  <main>
+    <!-- HEADER -->
+    <header>
+      <div class="logo">
+        LOGO
+      </div>
+      <div class="menu">
+        <nav class="nav-list">
+            <a href="#home">Home</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+      </div>
+    </header>  
+    
+    <!-- HOME -->
+    <section id="home">
+      <div class="home-info">
+        <h2>Olá, sou o Rodrigo</h2>
+        <span class="home-position">Programador FullStack</span>
+        <span class="home-resume">
+            Desenvolvedor Web formado pelo bootcamp da Labenu e me especializando mais na área através
+            de cursos e mentorias onlines. Tenho experiência curricular em tecnologias como JavaScript,
+            React.js, Node.js, HTML, CSS, Jest, consumo de API Rest, componentização e uso de Hooks.
+        </span>
+
+        <button>
+          <a href="#contact">Contate-me</a>
+        </button>
+      </div>
+      <div class="home-img">
+        <img src="img/Rodrigo-Avatar.png" alt="Foto de perfil">
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+      <h2>Projetos</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="img/rapidao1.png" alt="Rapidao bet 1">
+            </div>
+            <div class="project-info">
+              <h2>RapidãoBet</h2>
+              <p>Página responsiva para captura de leads de um site de aposta que fiz como freelancer, usando JavaScript, CSS e HTML</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="img/rapidao2.png" alt="Rapidao bet 2">
+            </div>
+            <div class="project-info">
+              <h2>RapidãoBet</h2>
+              <p>Usando formulário com redirecionamento para o WhatsApp.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="img/print-hoobank.png" alt="hoobank">
+            </div>
+            <div class="project-info">
+              <h2>Hoobank</h2>
+              <p>Pagina moderna e responsiva de um banco usando JavaScript, tailwind CSS, React.js, HTML.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="img/gerador-de-senhas.png" alt="tiktok">
+            </div>
+            <div class="project-info">
+              <h2>Gerador de senhas</h2>
+              <p>Pagina de um gerador de senhas moderno usando HTML, JavaScript e CSS.</p>
+            </div>
+          </div>
+        </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+
+  <section id="contact">
+    <h2>Contato</h2>
+    <form action="mailto:rodrigoocalazans@gmail.com" method="POST">
+      <input type="text" placeholder="Digite seu nome" />
+      <input type="email" placeholder="Digite seu e-mail" />
+      <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    copyright © 2023 Rodrigo Calazans. Todos os direitos reservados
+  </footer>
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
