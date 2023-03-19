@@ -217,6 +217,11 @@ input, textarea, button {
   opacity: 1;
 }
 
+.social-media{
+  display: flex;
+  gap: 15px;
+}
+
 /* FOOTER */
 
 footer {
